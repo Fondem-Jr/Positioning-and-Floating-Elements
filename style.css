@@ -1,0 +1,10 @@
+.menu-bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+.menu-bars div {
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0;
+  }
