@@ -8,3 +8,18 @@
     background-color: black;
     margin: 2px 0;
   }
+  .search-icon img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+.cosmos .space-co {
+      color: black;
+      text-decoration: none;
+  }
+
+.nyt-logo img {
+    width: 195px;
+    height: 25px;
+}
