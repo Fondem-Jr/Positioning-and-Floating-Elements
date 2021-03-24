@@ -222,3 +222,18 @@ ul {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
+
+.inflation-container {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 200px;
+  float: left;
+  margin-right: 25px;
+}
+
+.para {
+  width:;
+}
