@@ -226,6 +226,7 @@ ul {
 .inflation-container {
   width: 945px;
   margin: 0 auto;
+  clear: both;
 }
 
 .box {
@@ -234,6 +235,54 @@ ul {
   margin-right: 25px;
 }
 
-.para {
-  width:;
+.float-left {
+  float: left;
+}
+
+.editor {
+  display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: white;
+}
+
+.grid-col {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 25% 100px auto;
+  justify-items: center;
+  align-items: center; 
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.grid-item {
+  align-self: center;
+}
+
+.aside-container {
+  
+}
+
+.inflat-author {
+  clear: both;
+}
+
+.story-info {
+  font-size: 14px;
+    font-size: .875rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+.css-border1 {
+  border-bottom: 1px solid black;
+    width: 72px;
+    
 }
