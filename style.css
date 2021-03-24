@@ -2,6 +2,11 @@ body {
   font-family: "Times New Roman", Times, serif;
   margin: auto;
   width: 100%;
+  color: #333;
+  background-color: white;
+}
+p{
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 .nyt-logo{
   width: 300px;
@@ -86,7 +91,6 @@ ul {
   width: 945px;
   height: 530px;
   cursor: pointer;
-  width: 100%;
   vertical-align: top;
 }
 
@@ -176,7 +180,45 @@ ul {
     width: 600px;
 }
 
-.float-left {
-  float: right;
-  width: 300px;
+.sign-up {
+  display: block;
+  margin-top: 4px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+} 
+
+.appreciate {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 25px auto;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.css-border {
+  border-bottom: 1px solid rgb(204, 204, 204);
+    width: 72px;
+    margin: 0px auto 18px;
+}
+
+.css-color {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
 }
