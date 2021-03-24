@@ -288,5 +288,172 @@ ul {
 }
 
 . cosmos-2 {
-  
+
+}
+
+.footnote {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.footnote a {
+  color: rgb(102, 102, 102);
+    text-decoration: underline;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center; 
+  border: blue solid;
+}
+
+.div-1 {
+  position: relative;
+  height: 50px;
+}
+
+.div-1a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 450px;
+}
+
+.div-1b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+}
+
+.upper-footer {
+  padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 20px;
+    display: flex;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+}
+
+.sub-items{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.fig {
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+    margin-top: 3px;
+    min-height: 12px;
+}
+
+.css-fig {
+  padding-bottom: 4px;
+  font-size: 0.625rem;
+  text-align: right;
+    color: rgb(153, 153, 153);
+}
+
+.description {
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+    line-height: 1.375rem;
+}
+
+.ccc-time {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.05em;
+    color: rgb(153, 153, 153);
+}
+
+.items {
+  width: 300px;
+}
+
+.lower-footer-a {
+  margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 3% 9px;
+}
+
+.css-h2 {
+  border: 0;
+    -webkit-clip: rect(0 0 0 0);
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.footer-flex-container {
+  display: flex;
+}
+
+.hpage {
+  margin: 18px 0px 0px auto;
+}
+
+.hpage-link {
+  color: rgb(86, 123, 149);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+.foot-header {
+  cursor: pointer;
+    margin: 0px;
+    border-top: 1px solid rgb(235, 235, 235);
+    color: rgb(51, 51, 51);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    height: 44px;
+    letter-spacing: 0.04rem;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+.css-1h {
+  display: none;
+}
+
+.css-ul {
+  list-style: none;
+    margin: 0px;
+    columns: auto 2;
+    padding: 0px 0px 15px;
+}
+
+.css-li {
+  height: 34px;
+  line-height: 34px;
+  list-style-type: none;
+}
+
+.css-a {
+  color: rgb(51, 51, 51);
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 34px;
+  line-height: 34px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
