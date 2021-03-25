@@ -7,7 +7,7 @@ body {
 }
 
 p {
-  font-family: "nyt-imperial", Georgia, Times New Roman, Times, serif;
+  font-family: nyt-imperial, Georgia, Times New Roman, Times, serif;
 }
 
 .nyt-logo {
@@ -81,7 +81,7 @@ p {
   width: 600px;
   height: 96px;
   color: #121212;
-  font-family: "nyt-cheltenham", georgia,'times new roman', times, serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-weight: 700;
   font-style: italic;
   margin: 0 20px 20px;
@@ -244,6 +244,7 @@ ul {
 .float-left {
   float: left;
 }
+
 .p-width {
   width: 200px;
 }
@@ -263,7 +264,7 @@ ul {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 25% 100px auto;
   justify-items: center;
-  align-items: center; 
+  align-items: center;
   column-gap: 10px;
   row-gap: 15px;
 }
@@ -287,7 +288,7 @@ ul {
 
 .css-border1 {
   border-bottom: 1px solid black;
-  width: 72px;  
+  width: 72px;
 }
 
 .footnote {
@@ -304,21 +305,21 @@ ul {
 
 .button1 {
   background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(50, 104, 145);
-    border-radius: 3px;
-    color: white;
-    display: block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    line-height: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px 0px;
-    text-transform: uppercase;
-    transition: background-color 0.6s ease 0s;
-    width: 100%;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease 0s;
+  width: 100%;
 }
 
 .flex-row {
@@ -382,12 +383,6 @@ ul {
 
 .items {
   width: 300px;
-}
-
-.lower-footer-a {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 3% 9px;
 }
 
 .css-h2 {
@@ -497,48 +492,48 @@ ul {
 
 .css-a1 {
   color: rgb(0, 0, 0);
-    display: inline-block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    text-decoration: none;
-    text-transform: capitalize;
-    width: 150px;
-    font-size: 14px;
-    font-weight: 500;
-    height: 23px;
-    line-height: 16px;
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
 }
 
 .flex-item-b {
   border-left: 1px solid rgb(226, 226, 226);
-    flex: 1 1 0%;
-    padding-left: 15px;
+  flex: 1 1 0%;
+  padding-left: 15px;
 }
 
 .css-li-2 {
   margin-bottom: 5px;
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .css-a2 {
   color: rgb(0, 0, 0);
-    display: inline-block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    text-decoration: none;
-    text-transform: capitalize;
-    width: 150px;
-    font-size: 16px;
-    font-weight: 700;
-    height: 25px;
-    line-height: 15px;
-    padding-bottom: 0px;
+  display: inline-block;
+  font-family: nyt-frankl, helvetica, arial, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
 }
 
 .svg-footer-icon {
   display: inline-block;
-    height: 13px;
-    width: 13px;
-    margin-right: 7px;
-    vertical-align: middle;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
 }
 
 .css-li-3 {
@@ -556,20 +551,19 @@ ul {
 
 .css-ul3 {
   list-style: none;
-    margin: 2px 0px 0px;
-    padding: 10px 0px 0px;
-    border-top: 1px solid rgb(226, 226, 226);
+  margin: 2px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid rgb(226, 226, 226);
 }
 
 .lower-footer {
   font-size: 11px;
-    text-align: center;
-    padding-bottom: 25px;
+  text-align: center;
 }
 
 .lower-footer-nav {
   border-top: 1px solid #ebebeb;
-    padding-top: 9px;
+  padding-top: 9px;
 }
 
 .lower-footer-h2 {
@@ -590,22 +584,24 @@ ul {
 }
 
 .lower-footer-a {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 3% 9px;
   color: #666;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
-  padding: 10px 0;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .lower-footer-ul1 {
   list-style: none;
-    line-height: 8px;
-    margin: 0 0 35px;
-    padding: 0;
+  line-height: 8px;
+  margin: 0 0 35px;
+  padding: 0;
 }
 
 .lower-footer-li1 {
   display: inline-block;
-    line-height: 20px;
-    padding: 0 10px;
+  line-height: 20px;
+  padding: 0 10px;
 }
