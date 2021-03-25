@@ -244,6 +244,9 @@ ul {
 .float-left {
   float: left;
 }
+.p-width {
+  width: 200px;
+}
 
 .editor {
   display: flex;
@@ -299,29 +302,35 @@ ul {
   text-decoration: underline;
 }
 
+.button1 {
+  background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    transition: background-color 0.6s ease 0s;
+    width: 100%;
+}
+
 .flex-row {
   display: flex;
-  justify-content: center; 
-  border: blue solid;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.div-1 {
-  position: relative;
-  height: 50px;
-}
-
-.div-1a {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 450px;
-}
-
-.div-1b {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 450px;
+.child-item {
+  width: 330px;
+  height: auto;
+  margin: auto;
 }
 
 .upper-footer {
