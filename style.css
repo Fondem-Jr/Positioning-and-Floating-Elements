@@ -4,10 +4,27 @@ body {
   width: 100%;
   color: #333;
   background-color: white;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-p {
-  font-family: nyt-imperial, Georgia, Times New Roman, Times, serif;
+.heading1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.editors {
+  font-size: 14px;
+}
+
+.more-sp {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgb(0, 0, 0);
 }
 
 .nyt-logo {
@@ -238,7 +255,7 @@ ul {
 .box {
   width: 200px;
   float: left;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .float-left {
