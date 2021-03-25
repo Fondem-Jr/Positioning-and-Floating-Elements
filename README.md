@@ -2,7 +2,7 @@
 
 > A copy of the web page of the NYT. This project helps us practise our skills on float, flex and grid. 
 
-![screenshot](images/Screenshot from 2021-03-25 00-54-34.png)
+![screenshot](images/project-screenshot.png)
 
 Additional description about the project and its features.
 
