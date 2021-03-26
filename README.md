@@ -4,6 +4,8 @@
 
 ![screenshot](images/project-screenshot.png)
 
+![screenshot](images/Screenshot_NYT.png)
+
 Additional description about the project and its features.
 
 ## Built With
