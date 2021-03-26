@@ -369,6 +369,7 @@ ul {
   max-width: 1200px;
   background-color: rgb(255, 255, 255);
   border-top: none;
+  margin: auto;
 }
 
 .sub-items {
